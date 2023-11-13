@@ -28,7 +28,7 @@ export const ImageUpload = (props: Props) => {
                 hidden
                 onChange={onChange}
             />
-            <Button onClick={onSelectImageClick}>Upload Tileset</Button>
+            <Button onClick={onSelectImageClick}>Upload Spritesheet</Button>
         </div>
     );
 };
